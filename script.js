@@ -27,10 +27,5 @@ for (let arr in personalMessage) {
     }
 };
 
-const formatMessage = inspiration => {
-    const formatted = inspirationalMessage.join('\n')
-    console.log(formatted)
-};
-
-formatMessage(inspirationalMessage);
+console.log(inspirationalMessage.join('\n'));
 
